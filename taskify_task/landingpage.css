@@ -1,0 +1,76 @@
+
+.maincontainer{
+    display: flex;
+}
+
+.taskfiylogocontainer{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+.logoimage{
+    height:500px;
+    width: 550px;
+
+}
+.taskfiyformcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    height: 100vh;
+}
+
+.formContainer{
+text-align: left;
+}
+.informpara{
+    margin-top: 15px;
+    color: rgb(166, 165, 165);
+    font-size: 16px;
+}
+.inputbox{
+    width: 360px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(56, 55, 55);
+    font-size: 15px;
+}
+.labelinput{
+    color: rgb(98, 95, 95);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+.checkboxcontainer{
+    margin-top: 15px;
+    color: rgb(166, 165, 165);
+    font-size: 15px;
+    margin-left: -240px;
+}
+
+.signinbutton{
+    width: 360px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(166, 89, 238);
+    border-width: 0px ;
+    color: white;
+}
+
+.signupoption{
+    color: rgb(166, 165, 165);
+    font-size: 19px;
+    margin-top: 25px;
+    margin-left: -95px;
+}

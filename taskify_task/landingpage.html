@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskify</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="">
+    <link rel="stylesheet" href="landingpage.css">
+
+    
+</head>
+<body>
+    
+
+    <div class="maincontainer">
+
+
+        <div class="taskfiylogocontainer">
+            <img class="logoimage" src="images/taskfiywebsitelogo.png.png" alt="">
+        </div>
+        
+
+        <div class="taskfiyformcontainer">
+            <h1>Welcome to Tasker</h1>
+            <p class="informpara">Please, insert your information to access your tasks.</p>
+                <div class="formContainer">
+                   <div>
+                        <label class="labelinput" for="emailInput">Email address</label><br>
+                        <input class="inputbox" type="email" id="emailInput" placeholder="Input your Email">
+                   </div>
+                    <br>
+                    <div>
+                        <label class="labelinput" for="passwordInput">Password</label><br>
+                        <input id="passwordInput" class="inputbox" type="password" placeholder="Input your Password">
+                    </div>
+                </div>
+
+            <div class="checkboxcontainer">
+                <input id="checkbox1" type="checkbox">
+                <label for="checkbox1">Remember me</label>
+            </div>
+
+            <div class="buttoncontainer">
+                <button onclick="signinbtn()" class="signinbutton">Sign in</button>
+            </div>
+
+            <div>
+                <p class="signupoption">Don't have an account? <a style="color: rgb(158, 75, 236);" href="signup.html">Sign up</a></p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="landingpage.js"></script>
+</body>
+</html>
